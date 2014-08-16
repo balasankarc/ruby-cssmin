@@ -5,14 +5,14 @@ Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.al
 Uploaders: Balasankar C <balasankarc@autistici.org>
 Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.7.5~)
 Standards-Version: 3.9.5
-#Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-cssmin.git
-#Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-cssmin.git;a=summary
-Homepage: FIXME
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-cssmin.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-cssmin.git;a=summary
+Homepage: https://github.com/rgrove/cssmin/
 XS-Ruby-Versions: all
 
 Package: ruby-cssmin
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
-Description: FIXME
- <insert long description, indented with spaces>
+Description: Ruby library for minifying CSS
+ Ruby library for minifying CSS. Inspired by cssmin.js and YUI Compressor.

@@ -1,5 +1,5 @@
-ruby-cssmin (1.0.3-1) UNRELEASED; urgency=medium
+ruby-cssmin (1.0.3-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #758298)
 
- -- Balasankar C <balasankarc@autistici.org>  Sat, 16 Aug 2014 17:50:13 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 16 Aug 2014 14:06:47 +0530
