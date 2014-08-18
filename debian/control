@@ -15,4 +15,6 @@ Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
 Description: Ruby library for minifying CSS
- Ruby library for minifying CSS. Inspired by cssmin.js and YUI Compressor.
+ Ruby library for minifying CSS. Inspired by cssmin.js and YUI Compressor. It 
+ is based on cssmin.js which was actually a JavaScript port of YUICompressor's 
+ CSS minifier.
