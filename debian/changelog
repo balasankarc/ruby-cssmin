@@ -1,3 +1,10 @@
+ruby-cssmin (1.0.3-2) experimental; urgency=medium
+
+  * Generate gemspec file from Rakefile (Closes: #768946)
+  * Bump standards version to 3.9.6 (no changes)
+
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 28 Mar 2015 09:36:26 +0530
+
 ruby-cssmin (1.0.3-1) unstable; urgency=medium
 
   * Initial release (Closes: #758298)

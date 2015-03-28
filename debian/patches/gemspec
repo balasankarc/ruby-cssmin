@@ -1,0 +1,10 @@
+--- a/Rakefile.rb
++++ b/Rakefile.rb
+@@ -65,3 +65,7 @@
+   t.test_files = FileList['test/*_test.rb']
+   t.verbose = true
+ end
++
++file "cssmin.gemspec" do
++  File.write("cssmin.gemspec", gemspec.to_ruby)
++end
