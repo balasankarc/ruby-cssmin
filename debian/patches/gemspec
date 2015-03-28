@@ -1,3 +1,9 @@
+Description: Add gemspec file
+ Generate gemspec file from Rakefile and add it to the bundle so as to provide
+ rubygems integration.
+
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/Rakefile.rb
 +++ b/Rakefile.rb
 @@ -65,3 +65,7 @@

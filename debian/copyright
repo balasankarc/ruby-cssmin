@@ -4,14 +4,14 @@ Source: https://github.com/rgrove/cssmin
 
 Files: *
 Copyright: 2008 Ryan Grove<ryan@wonko.com>
-License: BSD
+License: BSD-3-clause
 
 Files: debian/*
 Copyright: 2014 Balasankar C <balasankarc@autistici.org>
-License: BSD
+License: BSD-3-clause
 Comment: the Debian packaging is licensed under the same terms as the original package.
 
-License: BSD
+License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
